@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "titulo": "Aprender NestJS",
+    "completada": true
+  },
+  {
+    "id": 2,
+    "titulo": "Construir mi primera API",
+    "completada": false
+  },
+  {
+    "id": 3,
+    "titulo": "Subir el proyecto a GitHub",
+    "completada": false
+  }
+]
