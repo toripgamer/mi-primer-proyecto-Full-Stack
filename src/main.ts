@@ -6,7 +6,7 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // 👉 PERMITIR QUE EL FRONTEND SE CONECTE SIN BLOQUEOS:
+  // PERMITIR QUE EL FRONTEND SE CONECTE SIN BLOQUEOS:
   app.enableCors();
 
   app.useGlobalPipes(new ValidationPipe());
